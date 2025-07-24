@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 metadata:
   name: playground-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: playground
-        image: wil42/playground:v1  # ← Change to v2 as needed
+        image: wil42/playground:v2  # ← Change to v2 as needed
         ports:
         - containerPort: 80
