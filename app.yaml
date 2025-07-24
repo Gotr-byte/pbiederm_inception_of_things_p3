@@ -18,4 +18,4 @@ spec:
       - name: playground
         image: wil42/playground:v2  # ← Change to v2 as needed
         ports:
-        - containerPort: 80
+        - containerPort: 8888
